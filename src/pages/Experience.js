@@ -9,7 +9,7 @@ function Experience() {
   return (
     <div
       className='experience'
-      style={{ background: '#333', fontFamily: 'Trebuchet Ms' }}
+      style={{ background: '#232', fontFamily: 'Trebuchet Ms' }}
     >
       <h1>Projects Timeline</h1>
       <VerticalTimeline key={events}>
