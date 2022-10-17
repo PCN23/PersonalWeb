@@ -8,13 +8,11 @@ function Home() {
     <div className='home'>
       <div className='about'>
         <h2>Hello My Name is Pedro</h2>
-        <div className='prompt'>
-          <p>I am a Software Developer with a passion for learning!</p>
-          <LinkedIn />
-          <GitHub />
-          <Email />
+        <p>I am a Software Developer with a passion for learning!</p>
+        <LinkedIn />
+        <GitHub />
+        <Email />
 
-        </div>
       </div>
       <div className='skills'>
         <h1>Skills</h1>
