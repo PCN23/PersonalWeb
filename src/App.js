@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route } from 'react-router-dom';
+import ProjectDisplay from './pages/ProjectDisplay';
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
         <Route exact path="/projects" >
           <Projects />
         </Route>
-        <Route exact path="/experience" >
-          <Experience />
+        <Route exact path="/project/:id" >
+          <ProjectDisplay />
+        </Route>
+        <Route exact path="/experience" > <Experience />
         </Route>
       </Router>
       <Footer/>
