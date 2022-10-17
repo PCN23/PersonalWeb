@@ -1,7 +1,7 @@
+/* eslint-disable react/jsx-key */
 import React from 'react';
 import ProjectItem from '../components/ProjectItem';
-import fish from '../assets/Pacc.png';
-
+import { ProjectList } from '../helpers/ProjectList.js';
 import '../styles/Projects.css';
 
 function Projects() {
@@ -9,8 +9,9 @@ function Projects() {
     <div className='projects'>
       <h1> My Personal Projects</h1>
       <div className='projectList'>
-        <ProjectItem name='Angry fish PACC' image={fish} />
-        <ProjectItem />
+        {ProjectList.map((project) => {
+          return <ProjectItem name={project.name} image={project.image} />;
+        })}
       </div>
     </div>
   );
