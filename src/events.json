@@ -16,20 +16,12 @@
       "event": "VS SNAKE project to help new vs users learn short cuts: <a href=\"https://main--gilded-granita-467f3b.netlify.app/\">VS SNAKE</a>"
     },
     {
-      "date": "07/92/2022",
-      "event": "Endangered species project"
+      "date": "07/27/2022",
+      "event": "Endangered species project. In a group of 4, we pull an API and made a Auth page, front end with pictures and critical info on the fish and it's preservation habits. <a href=\"https://angrypaacfisch.netlify.app/\"> PACC Fish</a> "
     },
     {
-      "date": "01/01/2018",
-      "event": "FISH API. Fetching API with fish details from Noaa.org"
-    },
-    {
-      "date": "02/01/2018",
-      "event": "Réception d'une liste des 50 questions les plus fréquemment posées dans les services de renseignement"
-    },
-    {
-      "date": "16/01/2018",
-      "event": "Rencontre avec l'association OpenLaw autour du code du travail numérique"
+      "date": "09/01/2022",
+      "event": "FISH API. In a group of 4 we got API returning with fish details from Noaa.org. Made a landing page with links that return the API data. We used SQL and also hard coded the fishes and the information on the fishes. <a href=\"https://fishapiforyou.herokuapp.com/\"> NOAA Fish API</a> "
     }
   ]
   
